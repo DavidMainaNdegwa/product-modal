@@ -9,52 +9,62 @@
 <body>
 
     <!--Global conatiner-->
-    <div class="flex align-center justify-center min-h-screen bg-slate-100">
+    <div class="flex items-center justify-center min-h-screen bg-slate-100">
 
         <!--Card container-->
-        <div class="flex flex-col justify-center align-center shadow-2xl bg-white p-6 space-y-3 mx-3 my-6">
-            <img src="images/headphone.png" alt="My image">
-        </div>
-
-            <!--button like insertion-->
-            <div 
-                class="flex align-items justify-center bg-black text-white my-4 rounded-2xl hover:cursor-vertical-text"
-            >
-                Free Shipping
+        <div class="flex flex-col shadow-2xl bg-white p-6 space-y-10 m-3 rounded-2xl">
+            
+            <!--image Div-->
+            <div>
+                <img 
+                    src="images/headphone.png"
+                    alt=""
+                    class="mx-auto duration-200 w-60 hover:scale-105"
+                />
             </div>
 
-                <!--Name and description of the product-->
-                <div 
-                    class="flex align-center justify-center text-white text-3xl text-center text-capitalize font-semibold py-5 px-3"
-                >
-                    Razer Kraken Kitty Edt Gaming Headset Quartz
-                </div>
+                <!--content-->
+                <div class="flex flex-col space-y-6">
+                   <!--Label & Title container-->
+                   <div class="flex flex-col text-center mb-6 space-y-3 md:text-left">
+                        <div>
+                            <div class="inline-block rounded-full bg-black text-white px-3 py-1 ">
+                                Free Shipping
+                            </div>
+                        </div>
 
-                    <!--Original Amount-->
-                    <div 
-                        class="flex align-center justify-center text-center text-sm text-black line-through py-4 px-8" 
-                    >
-                        $799
-                    </div>
+                        <div class="text-2xl font-semibold capitalize text-black font- text-center max-w-sm">
+                            Razer Kraken Kitty Edt Gaming Headset Quartz
+                        </div>
 
-                        <!--Current Amount-->
-                        <div
-                            class="flex align-center justify-center text-4xl text-black text-center tracking-wide py-3 px-5"
-                        >
+                        <div class="flex justify-center line-through text-black text-sm w-auto p-1 tracking-tight">
+                            $799
+                        </div> 
+
+                        <div class="flex font-bold w-auto p-2 text-5xl justify-center text-black tracking-normal">
                             $599
                         </div>
 
-                            <!--Announcement-->
-                            <div
-                                class="flex align-items justify-center tracking-tight text-opacity-25 text-xs font-thin text-black"
-                            >
-                                This offer is valid until April 3rd or as long as stock lasts!
-                            </div>
+                        <div class="text-opacity-30 font-light text-sm tracking-normal text-black">
+                            This offer is valid until 3rd or as long as stocks lasts!
+                        </div>
 
-                                <!--Button-->
-                                <div 
-                                    class=""
-                                </div>  
+                        <div class="group">
+                            <button class="w-full transition-all duration-150 bg-blue-700 text-white border-b-8 border-blue-700 rounded-lg group-hover:border-t-8 group-hover:border-b-0 group-hover:bg-blue-700 group-hover:border-t-blue-700 group-hover:shadow-lg">
+                               <div class="px-8 py-4 duration-150 bg-blue-500 rounded-lg group-hover:bg-blue-700">Add to cart</div>
+                            </button>
+                        </div>
+
+                        
+                   </div>
+
+                </div>
+
+        </div>
+
+
+
+         
     </div>
     
 </body>
